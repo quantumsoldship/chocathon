@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155D6A542C91E1920041451C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155D6A532C91E1920041451C /* SwiftUI.framework */; };
+		155D6A632C91E1950041451C /* hot-choc-controlExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 155D6A4F2C91E1920041451C /* hot-choc-controlExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		155D6A612C91E1950041451C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1586B2322C91CDFF0037A79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155D6A4E2C91E1920041451C;
+			remoteInfo = "hot-choc-controlExtension";
+		};
+		1586B24B2C91CE020037A79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1586B2322C91CDFF0037A79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1586B2392C91CDFF0037A79C;
+			remoteInfo = "hot-chocolate-2";
+		};
+		1586B2552C91CE020037A79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1586B2322C91CDFF0037A79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1586B2392C91CDFF0037A79C;
+			remoteInfo = "hot-chocolate-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		152F8C362C921AFA003DFD73 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155D6A682C91E1950041451C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				155D6A632C91E1950041451C /* hot-choc-controlExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		155D6A4F2C91E1920041451C /* hot-choc-controlExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hot-choc-controlExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155D6A532C91E1920041451C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1586B23A2C91CDFF0037A79C /* hot-chocolate-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hot-chocolate-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1586B24A2C91CE020037A79C /* hot-chocolate-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-chocolate-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1586B2542C91CE020037A79C /* hot-chocolate-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-chocolate-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		155D6A642C91E1950041451C /* Exceptions for "hot-choc-control" folder in "hot-choc-controlExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 155D6A4E2C91E1920041451C /* hot-choc-controlExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		152F8C242C921AF9003DFD73 /* Chocathon Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chocathon Watch AppTests";
+			sourceTree = "<group>";
+		};
+		152F8C2E2C921AF9003DFD73 /* Chocathon Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chocathon Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		155D6A552C91E1920041451C /* hot-choc-control */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				155D6A642C91E1950041451C /* Exceptions for "hot-choc-control" folder in "hot-choc-controlExtension" target */,
+			);
+			path = "hot-choc-control";
+			sourceTree = "<group>";
+		};
+		1586B23C2C91CDFF0037A79C /* hot-chocolate-2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hot-chocolate-2";
+			sourceTree = "<group>";
+		};
+		1586B24D2C91CE020037A79C /* hot-chocolate-2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hot-chocolate-2Tests";
+			sourceTree = "<group>";
+		};
+		1586B2572C91CE020037A79C /* hot-chocolate-2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hot-chocolate-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		155D6A4C2C91E1920041451C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155D6A542C91E1920041451C /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2372C91CDFF0037A79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2472C91CE020037A79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2512C91CE020037A79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155D6A502C91E1920041451C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155D6A532C91E1920041451C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1586B2312C91CDFF0037A79C = {
+			isa = PBXGroup;
+			children = (
+				1586B23C2C91CDFF0037A79C /* hot-chocolate-2 */,
+				1586B24D2C91CE020037A79C /* hot-chocolate-2Tests */,
+				1586B2572C91CE020037A79C /* hot-chocolate-2UITests */,
+				155D6A552C91E1920041451C /* hot-choc-control */,
+				152F8C242C921AF9003DFD73 /* Chocathon Watch AppTests */,
+				152F8C2E2C921AF9003DFD73 /* Chocathon Watch AppUITests */,
+				155D6A502C91E1920041451C /* Frameworks */,
+				1586B23B2C91CDFF0037A79C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1586B23B2C91CDFF0037A79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1586B23A2C91CDFF0037A79C /* hot-chocolate-2.app */,
+				1586B24A2C91CE020037A79C /* hot-chocolate-2Tests.xctest */,
+				1586B2542C91CE020037A79C /* hot-chocolate-2UITests.xctest */,
+				155D6A4F2C91E1920041451C /* hot-choc-controlExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155D6A4E2C91E1920041451C /* hot-choc-controlExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155D6A652C91E1950041451C /* Build configuration list for PBXNativeTarget "hot-choc-controlExtension" */;
+			buildPhases = (
+				155D6A4B2C91E1920041451C /* Sources */,
+				155D6A4C2C91E1920041451C /* Frameworks */,
+				155D6A4D2C91E1920041451C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				155D6A552C91E1920041451C /* hot-choc-control */,
+			);
+			name = "hot-choc-controlExtension";
+			packageProductDependencies = (
+			);
+			productName = "hot-choc-controlExtension";
+			productReference = 155D6A4F2C91E1920041451C /* hot-choc-controlExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1586B2392C91CDFF0037A79C /* hot-chocolate-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1586B25E2C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2" */;
+			buildPhases = (
+				1586B2362C91CDFF0037A79C /* Sources */,
+				1586B2372C91CDFF0037A79C /* Frameworks */,
+				1586B2382C91CDFF0037A79C /* Resources */,
+				155D6A682C91E1950041451C /* Embed Foundation Extensions */,
+				152F8C362C921AFA003DFD73 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				155D6A622C91E1950041451C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1586B23C2C91CDFF0037A79C /* hot-chocolate-2 */,
+			);
+			name = "hot-chocolate-2";
+			packageProductDependencies = (
+			);
+			productName = "hot-chocolate-2";
+			productReference = 1586B23A2C91CDFF0037A79C /* hot-chocolate-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1586B2492C91CE020037A79C /* hot-chocolate-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1586B2612C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2Tests" */;
+			buildPhases = (
+				1586B2462C91CE020037A79C /* Sources */,
+				1586B2472C91CE020037A79C /* Frameworks */,
+				1586B2482C91CE020037A79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1586B24C2C91CE020037A79C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1586B24D2C91CE020037A79C /* hot-chocolate-2Tests */,
+			);
+			name = "hot-chocolate-2Tests";
+			packageProductDependencies = (
+			);
+			productName = "hot-chocolate-2Tests";
+			productReference = 1586B24A2C91CE020037A79C /* hot-chocolate-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1586B2532C91CE020037A79C /* hot-chocolate-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1586B2642C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2UITests" */;
+			buildPhases = (
+				1586B2502C91CE020037A79C /* Sources */,
+				1586B2512C91CE020037A79C /* Frameworks */,
+				1586B2522C91CE020037A79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1586B2562C91CE020037A79C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1586B2572C91CE020037A79C /* hot-chocolate-2UITests */,
+			);
+			name = "hot-chocolate-2UITests";
+			packageProductDependencies = (
+			);
+			productName = "hot-chocolate-2UITests";
+			productReference = 1586B2542C91CE020037A79C /* hot-chocolate-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1586B2322C91CDFF0037A79C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					155D6A4E2C91E1920041451C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1586B2392C91CDFF0037A79C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1586B2492C91CE020037A79C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1586B2392C91CDFF0037A79C;
+					};
+					1586B2532C91CE020037A79C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1586B2392C91CDFF0037A79C;
+					};
+				};
+			};
+			buildConfigurationList = 1586B2352C91CDFF0037A79C /* Build configuration list for PBXProject "hot-chocolate-2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1586B2312C91CDFF0037A79C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1586B23B2C91CDFF0037A79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1586B2392C91CDFF0037A79C /* hot-chocolate-2 */,
+				1586B2492C91CE020037A79C /* hot-chocolate-2Tests */,
+				1586B2532C91CE020037A79C /* hot-chocolate-2UITests */,
+				155D6A4E2C91E1920041451C /* hot-choc-controlExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155D6A4D2C91E1920041451C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2382C91CDFF0037A79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2482C91CE020037A79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2522C91CE020037A79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155D6A4B2C91E1920041451C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2362C91CDFF0037A79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2462C91CE020037A79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1586B2502C91CE020037A79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		155D6A622C91E1950041451C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 155D6A4E2C91E1920041451C /* hot-choc-controlExtension */;
+			targetProxy = 155D6A612C91E1950041451C /* PBXContainerItemProxy */;
+		};
+		1586B24C2C91CE020037A79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1586B2392C91CDFF0037A79C /* hot-chocolate-2 */;
+			targetProxy = 1586B24B2C91CE020037A79C /* PBXContainerItemProxy */;
+		};
+		1586B2562C91CE020037A79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1586B2392C91CDFF0037A79C /* hot-chocolate-2 */;
+			targetProxy = 1586B2552C91CE020037A79C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		155D6A662C91E1950041451C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hot-choc-control/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hot-choc-control";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2.hot-choc-control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		155D6A672C91E1950041451C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hot-choc-control/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hot-choc-control";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2.hot-choc-control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1586B25C2C91CE020037A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1586B25D2C91CE020037A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1586B25F2C91CE020037A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hot-chocolate-2/Preview Content\"";
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chocathon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1586B2602C91CE020037A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hot-chocolate-2/Preview Content\"";
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chocathon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1586B2622C91CE020037A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-chocolate-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-chocolate-2";
+			};
+			name = Debug;
+		};
+		1586B2632C91CE020037A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-chocolate-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-chocolate-2";
+			};
+			name = Release;
+		};
+		1586B2652C91CE020037A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hot-chocolate-2";
+			};
+			name = Debug;
+		};
+		1586B2662C91CE020037A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZVUPA3D36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isaacnorthington.hot-chocolate-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hot-chocolate-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		155D6A652C91E1950041451C /* Build configuration list for PBXNativeTarget "hot-choc-controlExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155D6A662C91E1950041451C /* Debug */,
+				155D6A672C91E1950041451C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1586B2352C91CDFF0037A79C /* Build configuration list for PBXProject "hot-chocolate-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1586B25C2C91CE020037A79C /* Debug */,
+				1586B25D2C91CE020037A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1586B25E2C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1586B25F2C91CE020037A79C /* Debug */,
+				1586B2602C91CE020037A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1586B2612C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1586B2622C91CE020037A79C /* Debug */,
+				1586B2632C91CE020037A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1586B2642C91CE020037A79C /* Build configuration list for PBXNativeTarget "hot-chocolate-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1586B2652C91CE020037A79C /* Debug */,
+				1586B2662C91CE020037A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1586B2322C91CDFF0037A79C /* Project object */;
+}
